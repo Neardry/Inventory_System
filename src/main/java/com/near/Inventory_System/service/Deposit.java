@@ -8,7 +8,7 @@ import java.util.*;
 @Service
 public class Deposit {
 
-    private int maxIdNumbers = 50000;
+    private int maxIdNumbers = 50000; //50k
 
     private ArrayList<String> allInitialItems = new ArrayList<String>(
     Arrays.asList(

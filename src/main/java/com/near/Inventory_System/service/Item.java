@@ -1,10 +1,8 @@
 package com.near.Inventory_System.service;
 
-import org.springframework.stereotype.Service;
 
-@Service
 public class Item {
-    private String item;
+    private final String item;
     private int quantity;
 
     public Item(String a, int b) {
